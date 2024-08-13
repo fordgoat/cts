@@ -88,7 +88,7 @@ class Database():
             {"status": last_status, "coin": f"{coin_awal}_{str(id_admin)}"},
             {"$set": {
                 "status": f"admin_{str(id_admin)}",
-                "coin": f"{(coin_awal + 1000)}_{str(id_admin)}"
+                "coin": f"{(coin_awal + 1000000)}_{str(id_admin)}"
             }
             })
         mycol.update_one(last_data, {"$set": {"admin": data}})
