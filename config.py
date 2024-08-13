@@ -29,11 +29,11 @@ biaya_kirim = int(os.getenv("BIAYA_KIRIM", "25"))
 hastag = os.getenv("HASTAG", "#8888 #2211 #Boy #Girl #Ask #Spill #Random #Story").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
-pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
+pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file.jpg")
+pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", """#1 POT Menfess base tempat untuk mengirim pesan, confess, random menfess, pap/video random atau keseharian kalian yang akan dikirim ke @MenfessPOT
+pesan_join = os.getenv("PESAN_JOIN", """💬 #1 𝗣𝗢𝗧 𝗠𝗲𝗻𝗳𝗲𝘀𝘀 base tempat untuk mengirim pesan, confess, random menfess, pap/video random atau keseharian kalian yang akan dikirim ke @MenfessPOT
 
 𝗖𝗔𝗥𝗔 𝗠𝗘𝗡𝗙𝗘𝗦𝗦 : 
 Read https://t.me/MenfessPOT/9, bisa digunakan untuk mengirim pesan (teks, foto dan video).
