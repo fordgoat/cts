@@ -33,9 +33,16 @@ pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jp
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Hai {NAME}, untuk mengirim pesan atau foto & video kamu harap join terlebih dahulu ke channel dan group POT 😉, jika sudah tekan COBA LAGI atau /help")
+pesan_join = os.getenv("PESAN_JOIN", """#1 POT Menfess base tempat untuk mengirim pesan, confess, random menfess, pap/video random atau keseharian kalian yang akan dikirim ke @MenfessPOT
+
+𝗖𝗔𝗥𝗔 𝗠𝗘𝗡𝗙𝗘𝗦𝗦 : 
+Read https://t.me/MenfessPOT/9, bisa digunakan untuk mengirim pesan (teks, foto dan video).
+𝗕𝗔𝗖𝗔 𝗥𝗨𝗟𝗘𝗦 : https://t.me/MenfessPOT/11
+
+need help? contact @othentix
+""")
 start_msg = os.getenv("START_MSG", """
-Selamat Datang {mention}
+𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗱𝗮𝘁𝗮𝗻𝗴 {mention} 😻
 
 bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pesan berupa foto dan video, gunakan hastag dibawah untuk mengirim pesan:
 
