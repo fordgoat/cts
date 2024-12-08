@@ -8,7 +8,7 @@ async def start_handler(client: Client, msg: types.Message):
     first = msg.from_user.first_name
     last = msg.from_user.last_name
     fullname = first if not last else first + ' ' + last
-    username = '@cpotid' if not msg.from_user.username else '@' + msg.from_user.username
+    username = '@ctsindo' if not msg.from_user.username else '@' + msg.from_user.username
     mention = msg.from_user.mention
     await msg.reply_text(
         text = config.start_msg.format(
@@ -94,12 +94,12 @@ async def help_handler(client, msg):
     pesan += '├ • /status — melihat status\n'
     pesan += '└ • /tf_coin — transfer coin ke user lain\n'
     pesan += '\nuntuk mengirim pesan/foto & video gunakan hastag dibawah:\n'
-    pesan += '#Boy - untuk identitas cowo\n'
-    pesan += '#Girl - untuk identitas cewe\n'
-    pesan += '#Ask - digunakan untuk bertanya\n'
-    pesan += '#Spill - spill sesuatu\n'
-    pesan += '#Random - untuk kirim foto/video random\n'
-    pesan += '#Story - untuk bercerita\n'
+    pesan += '#ctsboy - untuk identitas cowo\n'
+    pesan += '#ctsgirl - untuk identitas cewe\n'
+    pesan += '#ctsask - digunakan untuk bertanya\n'
+    pesan += '#ctsspill - spill sesuatu\n'
+    pesan += '#ctsrandom - untuk kirim foto/video random\n'
+    pesan += '#ctsstory - untuk bercerita\n'
     pesan += '\ninfo pengaduan atau top up coin hubungi @othentix\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
