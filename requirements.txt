@@ -1,4 +1,4 @@
-apscheduler
+apscheduler==3.7.0
 dnspython
 requests
 pymongo
